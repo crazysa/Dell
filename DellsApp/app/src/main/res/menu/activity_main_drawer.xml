@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/one"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Import Database(Select Name)" />
+
+    </group>
+
+    <item android:title="Demand"
+        android:icon="@drawable/ic_computer_black_18dp"
+        >
+        <menu>
+            <item
+                android:id="@+id/two"
+                android:title="Product Demands"
+                android:icon="@drawable/ic_computer_black_18dp"
+                />
+            <item
+                android:id="@+id/three"
+                android:title="Regional Demands"
+                android:icon="@drawable/ic_computer_black_18dp"
+                />
+        </menu>
+    </item>
+
+
+    <item android:title="Supply"
+        android:icon="@drawable/baseline_attach_money_black_18dp"
+        >
+        <menu>
+            <item
+                android:id="@+id/four"
+                android:title="Revenue Opportunity"
+                android:icon="@drawable/baseline_attach_money_black_18dp"/>
+        </menu>
+    </item>
+
+    <item android:title="Pictorial Representations"
+        android:icon="@drawable/ic_computer_black_18dp"
+        >
+        <menu>
+            <item
+                android:id="@+id/five"
+                android:title="Age Factor on Sales"
+                android:icon="@drawable/baseline_create_black_18dp"
+                />
+            <item
+                android:id="@+id/six"
+                android:title="Service Factor on Sales"
+                android:icon="@drawable/baseline_create_black_18dp"
+                />
+            <item
+                android:id="@+id/seven"
+                android:title="Gender Factor on Sales"
+                android:icon="@drawable/baseline_create_black_18dp"
+                />
+
+        </menu>
+    </item>
+
+</menu>

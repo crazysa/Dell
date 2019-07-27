@@ -1,0 +1,88 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:configChanges="orientation|screenSize"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="vertical"
+    tools:context="com.example.muj.dellsapp.UserEntryOneTime">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <WebView
+            android:id="@+id/web34"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+        </WebView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginTop="70dp"
+            android:textColor="#000"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:text="Sign-In"
+            />
+
+
+        <EditText
+            android:id="@+id/et1"
+            android:layout_width="300dp"
+            android:layout_height="90dp"
+            android:singleLine="true"
+            android:layout_marginTop="100dp"
+            android:layout_centerHorizontal="true"
+            android:hint="Official ID"
+            android:paddingLeft="15dp"
+            android:drawableLeft="@drawable/ic_account_circle_black_24dp"
+            android:drawablePadding="10dp"
+            android:inputType="textPersonName">
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/et2"
+            android:layout_width="300dp"
+            android:layout_height="110dp"
+            android:singleLine="true"
+            android:layout_below="@+id/et1"
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true"
+            android:hint="Password"
+            android:paddingLeft="15dp"
+            android:drawableLeft="@drawable/ic_star_rate_black_18dp"
+            android:drawablePadding="10dp"
+            android:inputType="textPersonName">
+            />
+        </EditText>
+
+
+        <Button
+            android:layout_width="320dp"
+            android:layout_height="60dp"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:id="@+id/contin"
+            android:textColor="#fff"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:backgroundTint="#000"
+            android:text="Authenticate"
+            android:layout_below="@+id/et1"
+            android:layout_marginTop="210dp"
+            android:layout_centerHorizontal="true"
+            />
+
+
+    </RelativeLayout>
+</ScrollView>
